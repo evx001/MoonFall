@@ -1,0 +1,13 @@
+SellThisTech
+
+Four years of live television 
+  crew of 12 
+  Coached 2 to peak performance 
+  
+Know programming from Turing to Lambda Calc. 
+  worked with:
+    Duck-Typed & Static Typed 
+    Eager Eval & Lazy Eval. 
+    Stateful & Stateless 
+  	Functional by choice, OOp by necessity. 
+
