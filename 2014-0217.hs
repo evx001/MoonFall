@@ -4,6 +4,7 @@ as a career
 or second career
 or you have to manage programmers
 or you have to understand programmers 
+or you plan to hire them 
 
 Code Cabal is the secret path to code supremecy 
 	absolute Beginners are best situated to take advantage here. 
