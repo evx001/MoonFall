@@ -9,11 +9,11 @@
 import Foundation
 
 struct FactBook {
-    let factsArray = [
+    var factsArray = [
         "Ants stretch on wakng up.",
         "Ostriches can run faster than horses.",
         "Olimpic Gold is mostly silver.",
-        "A Birth you have 300 bones, as an adult only 206.",
+        "At Birth you have 300 bones, as an adult only 206.",
         "Sunlight reaches earth every 8 minutes.",
         "Bamboo can grow a meter in a day.",
         "peguins can leap up to 3 metters out of the water.",
