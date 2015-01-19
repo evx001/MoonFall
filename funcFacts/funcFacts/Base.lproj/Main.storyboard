@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,15 +17,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Fun Facts Here!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="972-1Q-zkr">
-                                <rect key="frame" x="16" y="28" width="286" height="122"/>
-                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="16"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Fun Facts Here!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="972-1Q-zkr">
+                                <rect key="frame" x="16" y="28" width="290" height="99"/>
+                                <color key="backgroundColor" red="0.79469265438153158" green="1" blue="0.65408687427725309" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="99" id="4EY-JX-3NZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHK-jS-2oT">
-                                <rect key="frame" x="77" y="269" width="167" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHK-jS-2oT">
+                                <rect key="frame" x="16" y="245" width="288" height="78"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.53212521773578381" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="288" id="UZt-aF-4jP"/>
+                                    <constraint firstAttribute="height" constant="78" id="pc7-bG-qaM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="20"/>
                                 <state key="normal" title="Get Facts">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -32,7 +44,16 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.6617339961341806" green="1" blue="0.93366387272672779" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="XHK-jS-2oT" firstAttribute="top" secondItem="972-1Q-zkr" secondAttribute="bottom" constant="118" id="GhX-eO-jNR"/>
+                            <constraint firstItem="972-1Q-zkr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="JkD-YF-LN7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="972-1Q-zkr" secondAttribute="trailing" constant="-2" id="PFG-DM-pYh"/>
+                            <constraint firstItem="XHK-jS-2oT" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="dT7-TQ-Gfc"/>
+                            <constraint firstItem="972-1Q-zkr" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" symbolic="YES" id="sNz-dD-62b"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="XHK-jS-2oT" secondAttribute="bottom" constant="245" id="wgo-No-Zs7"/>
+                            <constraint firstItem="XHK-jS-2oT" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="zde-B5-SI5"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="factlable" destination="972-1Q-zkr" id="Eh9-gE-PqT"/>
@@ -40,7 +61,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="95" y="128"/>
+            <point key="canvasLocation" x="214" y="121"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
