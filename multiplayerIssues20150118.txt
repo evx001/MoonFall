@@ -22,3 +22,8 @@ Avatar Movement
 		forward momentum maintaned 
 
 	client side prediction 
+
+	client aims 
+		server duplicates only 
+
+		ghosting 
