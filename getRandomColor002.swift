@@ -1,7 +1,8 @@
-// PROJECT#000
-// So we cast it to CGFloat ultimately but UInt32 initially
- // we get back a UIColor object.
- // did try arc4random_uniform method and then MOD it to get a decimal value.
+// getRandomColor()
+// with arc4random_uniform method 
+// So we cast it to UInt32 initially but then CGFloat ultimately
+ // we get back a UIColor object
+ 
  func getRandomColor() -> UIColor{
 
     var randomRed:CGFloat = CGFloat(UInt32(arc4random_uniform(255)))
