@@ -9,8 +9,14 @@
 import Foundation
 import UIKit
 // random color function and we either generate random fractions within a range
-func colorFunc() -> (red:UIColor,green:UIColor,blue:UIColor,1.0){
-    var randColor = UIColor(red: 33/255, green: 34/255, blue: 35/255, alpha: 1.0)
+func getRandomColor() -> UIColor{
 
-    return (randColor)
+    var randomRed:CGFloat = CGFloat(drand48())
+
+    var randomGreen:CGFloat = CGFloat(drand48())
+
+    var randomBlue:CGFloat = CGFloat(drand48())
+
+    return UIColor(red: randomRed, green: randomGreen, blue: randomBlue, alpha: 1.0)
+
 }
