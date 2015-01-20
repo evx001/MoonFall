@@ -57,6 +57,7 @@
                     </view>
                     <connections>
                         <outlet property="factlable" destination="972-1Q-zkr" id="Eh9-gE-PqT"/>
+                        <outlet property="getButton" destination="XHK-jS-2oT" id="ARc-IU-XHj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
