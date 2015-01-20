@@ -10,6 +10,7 @@ import UIKit
 import Foundation
 
 class ViewController: UIViewController {
+    @IBOutlet weak var getButton: UIButton!
     @IBOutlet weak var factlable: UILabel!
 //    let factsArray = ["Ants stretch after sleeping","Ostritches can out run horses","Ants stretch on wakng up"]
     let factBook = FactBook()
@@ -30,7 +31,9 @@ class ViewController: UIViewController {
 
         //factlable.text = randomFact()
             factlable.text = factBook.randomFact()
-
+        view.backgroundColor = getRandomColor()
+        factlable.backgroundColor = getRandomColor()
+        getButton.backgroundColor = getRandomColor()
     }
     
 }
