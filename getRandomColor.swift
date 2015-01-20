@@ -1,6 +1,8 @@
  // drand48()  returns a Double value 
  // whereas the UIColour init method expects the value to be in CGFloat. 
  // So we cast it to CGFloat.
+ // we get back a UIColor object.
+ // Could try arc4random_uniform method and then MOD it to get a decimal value.
  func getRandomColor() -> UIColor{
  
         var randomRed:CGFloat = CGFloat(drand48())
