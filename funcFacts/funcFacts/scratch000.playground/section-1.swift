@@ -2,20 +2,14 @@
 
 import UIKit
 
-//var str = "Hello, playground"
-//let bestSmartphone = "iPhone"
-//var favoriteSports = ["football", "basketball","tennis"]
-//favoriteSports.append("volleyball")
-//favoriteSports
+
+//UIColor 
+
+func xFl ()-> Int{
+var x = arc4random()
+    return ()
+}
 
 
-//Create an array named shoppingList and add the following items as strings - "toothpaste", "bread", "eggs".
 
-// We are at the grocery store and we picked up the bread. Using array subscripting, retrieve the string "bread" from the array and assign it to a variable named cart.
-//
-//var shoppingList = ["toothpaste", "bread", "eggs"]
-//shoppingList[1]
-
-
-        var randFact = arc4random_uniform(11)
-print(randFact)
+// var redColor = UIColor(red: 144/255, green: 1122/255, blue: 1122/255, alpha: 1)
