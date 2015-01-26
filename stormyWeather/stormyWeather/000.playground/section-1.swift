@@ -21,6 +21,7 @@ let forcastUrl = NSURL(string: "\(location)", relativeToURL: baseUrl)
 
 
 import Cocoa
+let courseID = 25
 let treehouseBaseURL = NSURL(string: "https://api.teamtreehouse.com/")
-
+var courseID = NSURL(string: "course/COURSE_ID", relativeToURL: treehouseBaseURL)
 
