@@ -36,6 +36,7 @@
 		600F90B31A6F5D960065CEB5 /* stormyWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stormyWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		600F90B81A6F5D970065CEB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		600F90B91A6F5D970065CEB5 /* stormyWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stormyWeatherTests.swift; sourceTree = "<group>"; };
+		6046F3801A74AD7400B40B69 /* 000.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 000.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 				600F90AA1A6F5D960065CEB5 /* Images.xcassets */,
 				600F90AC1A6F5D960065CEB5 /* LaunchScreen.xib */,
 				600F90A11A6F5D950065CEB5 /* Supporting Files */,
+				6046F3801A74AD7400B40B69 /* 000.playground */,
 			);
 			path = stormyWeather;
 			sourceTree = "<group>";
@@ -405,6 +407,7 @@
 				600F90BF1A6F5D970065CEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		600F90C01A6F5D970065CEB5 /* Build configuration list for PBXNativeTarget "stormyWeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +416,7 @@
 				600F90C21A6F5D970065CEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
