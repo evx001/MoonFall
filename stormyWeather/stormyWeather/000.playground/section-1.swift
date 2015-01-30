@@ -21,7 +21,22 @@ let forcastUrl = NSURL(string: "\(location)", relativeToURL: baseUrl)
 
 
 import Cocoa
-let courseID = 25
-let treehouseBaseURL = NSURL(string: "https://api.teamtreehouse.com/")
-var courseID = NSURL(string: "course/COURSE_ID", relativeToURL: treehouseBaseURL)
+//import Foundation
 
+//let treehouseBaseURL = NSURL(string: "https://api.teamtreehouse.com/")
+//var courseURL = NSURL(string: "course/COURSE_ID/\(courseID)", relativeToURL: treehouseBaseURL)
+//////////////////////////////////
+/*
+Let's assume that the courseURL we created earlier returns some JSON data from Treehouse API. 
+Create a data object to capture this information, and 
+store it in a constant named courseData. 
+Hint: Use the NSData class. 
+You can set options and error to nil.
+
+let courseID = 25
+import Foundation
+let treehouseBaseURL = NSURL(string: "https://api.teamtreehouse.com/")
+let courseURL = NSURL(string: "/course/\(courseID)", relativeToURL: treehouseBaseURL)
+let courseData = NSData(contentsOfURL:courseURL!, options: nil, error: nil)
+
+*/

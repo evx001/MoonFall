@@ -13,11 +13,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let forcastleUrl = "https://api.forecast.io/forecast/6e916559d9447e87ff97ee163ddd4b0a/40.717147, -74.013064"
-        let baseUrl = NSURL(string: "https://api.forecast.io/forecast/\(apikey)/")
+       // let forcastleUrl = NSURL(string: "https://api.forecast.io/forecast/6e916559d9447e87ff97ee163ddd4b0a/40.717147, -74.013064")
 
+        let baseUrl = NSURL(string: "https://api.forecast.io/forecast/\(apikey)/")
         var location = "40.718171, -74.016626"
         let forcastUrl = NSURL(string: "\(location)", relativeToURL: baseUrl)
+
+        let sharedSession = NSURLSession.sharedSession()
+        
+        let downloadTask: NSURLSessionDownloadTask = sharedSession.downloadTaskWithURL(forcastUrl!,
+            completionHandler: { (location: NSURL!, response: NSURLResponse!, error: NSError!) -> Void in println(response)
+    })
+        downloadTask.resume()
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
