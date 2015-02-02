@@ -1,0 +1,24 @@
+﻿```xml
+<Manifest>
+  <AgentType>iOSUnified_UIKit</AgentType>
+  <Guid>9d523de4-6941-4f2b-8899-d6704c2e1864</Guid>
+  <Resources />
+</Manifest>
+```
+```fsharp
+// Sketch your next great idea!
+
+open AppKit
+open Foundation
+open CoreGraphics
+
+
+
+// let xs = [1..10]
+let rnd1 = (new System.Random()).Next(1,1000)
+let list000 = [for i in 1 .. 10->a]
+printfn "%A" list000
+
+
+```
+
