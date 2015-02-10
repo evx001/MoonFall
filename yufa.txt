@@ -1,0 +1,9 @@
+yufa.txt
+The Chinese term for grammar "yufa" is more transparent in meaning.  "Yu" is language and "fa" is law.
+"No grammar" = "no rules."
+Chinese does not have the kind of grammar that is familiar to speakers of English and other European languages.
+	no verbal inflections, 
+	no gender, 
+	number and case endings for nouns, 
+	no tense
+

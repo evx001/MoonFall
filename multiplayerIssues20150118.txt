@@ -1,0 +1,29 @@
+multiplayerIssues20150118
+client server 
+	sync game worlds 
+		multiverse 
+		connect 
+		spawn on the server
+		spawn everywhere 
+	~/10ms 
+		you jump, then server, spawned
+
+design multiplayer from the start.
+	retro fit single. 
+
+Avatar Movement 
+	~/20 is too long to wait. 
+	client side prediction 
+		so I send all possible moves? 
+		and then reveal the actual.
+
+	rebase 
+		jump rejected 
+		forward momentum maintaned 
+
+	client side prediction 
+
+	client aims 
+		server duplicates only 
+
+		ghosting 

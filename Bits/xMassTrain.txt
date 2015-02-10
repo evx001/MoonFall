@@ -1,7 +1,0 @@
-xMassTrain
-	a subway car 
-	people 
-		travelers 
-		some zombies 
-		
-

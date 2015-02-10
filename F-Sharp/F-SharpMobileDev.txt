@@ -1,0 +1,5 @@
+FSharpMobileDev.txt
+
+Because 
+	x = x + 1 -- logically makes no sense, only in the world of mutability is this possible. 
+	 
