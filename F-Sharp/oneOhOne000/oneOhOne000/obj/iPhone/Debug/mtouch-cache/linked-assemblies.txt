@@ -1,7 +1,0 @@
-/Users/evx001/2014notes001/F-Sharp/oneOhOne000/oneOhOne000/obj/iPhone/Debug/mtouch-cache/Link/System.Core.dll
-/Users/evx001/2014notes001/F-Sharp/oneOhOne000/oneOhOne000/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
-/Users/evx001/2014notes001/F-Sharp/oneOhOne000/oneOhOne000/obj/iPhone/Debug/mtouch-cache/Link/monotouch.dll
-/Users/evx001/2014notes001/F-Sharp/oneOhOne000/oneOhOne000/obj/iPhone/Debug/mtouch-cache/Link/FSharp.Core.dll
-/Users/evx001/2014notes001/F-Sharp/oneOhOne000/oneOhOne000/obj/iPhone/Debug/mtouch-cache/Link/oneOhOne000.exe
-/Users/evx001/2014notes001/F-Sharp/oneOhOne000/oneOhOne000/obj/iPhone/Debug/mtouch-cache/Link/Mono.Dynamic.Interpreter.dll
-/Users/evx001/2014notes001/F-Sharp/oneOhOne000/oneOhOne000/obj/iPhone/Debug/mtouch-cache/Link/System.dll
