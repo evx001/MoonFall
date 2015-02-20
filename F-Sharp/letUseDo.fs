@@ -18,13 +18,15 @@ let mutable name = "Dave"
 name <- "Nadia" 
 printfn "%A" name 
 ///> "Nadia"
+////////////// 
+(*
 /// not so nice in a Closure so be careful as in the following:
 let addSomeNumbers nums = 
     let mutable sum = 0 
     let add = (fun num -> sum <- sum + num) 
     /// Error FS0407: The mutable variable 'sum' .... cannot be captured by closures. Consider ... using a heap-allocated mutable reference cell via 'ref' and '!'. 
     Array.iter (fun num -> add num) [| 1..10 |]
-    
+*)    
 /// setting a ref 
 let cell = ref 0
 /// accessing a ref
@@ -61,14 +63,50 @@ module disposableObject =
 
 (* ////// result /////////////
 
-		creating: outer
-		creating: inner 1
-		completing iteration 1
-		leaving function
-		disposing: inner 1
-		creating: inner 2
-		completing iteration 2
-		leaving function
-		disposing: inner 2
-		disposing: outer
+        creating: outer
+        creating: inner 1
+        completing iteration 1
+        leaving function
+        disposing: inner 1
+        creating: inner 2
+        completing iteration 2
+        leaving function
+        disposing: inner 2
+        disposing: outer
 *)
+(* 
+open System.IO
+let writeToFile filename buffer =
+    use fs = new FileStream(filename, FileMode.CreateNew, FileAccess.Write) 
+    fs.Write(buffer, 0, buffer.Length)
+*)
+
+/// numericConversionFunctions 
+
+let marchHighTemps = [ 33.0; 30.0; 33.0; 38.0; 36.0; 31.0; 35.0;
+                       42.0; 53.0; 65.0; 59.0; 42.0; 31.0; 41.0;
+                       49.0; 45.0; 37.0; 42.0; 40.0; 32.0; 33.0;
+                       42.0; 48.0; 36.0; 34.0; 38.0; 41.0; 46.0;
+                       54.0; 57.0; 59.0 ]
+
+let totalMarchHighTemps = List.sum marchHighTemps 
+let average = totalMarchHighTemps / float marchHighTemps.Length
+
+
+printfn "%A" average 
+///> 42.0
+/////////// UTF-8 /////////////////////
+let copyrightSign = '\u00A9';;
+
+printfn "%A" copyrightSign 
+///> '©'
+//////////////////////////////////
+
+
+
+[<EntryPoint>]
+let main argv = 
+    printfn "%A" argv
+
+
+    0 // return an integer exit code
