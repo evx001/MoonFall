@@ -105,6 +105,7 @@ printfn "%A" copyrightSign
 
 
 [<EntryPoint>]
+/// let bound function as entry point.
 let main argv = 
     printfn "%A" argv
 
