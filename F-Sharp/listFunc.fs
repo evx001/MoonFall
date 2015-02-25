@@ -6,3 +6,7 @@ let rec listLength  = function
 
 
 printfn "%A" (listLength ys)
+
+let sumxs =  ys.Head
+
+printfn "%A" sumxs 
