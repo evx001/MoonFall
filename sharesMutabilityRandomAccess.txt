@@ -1,0 +1,3 @@
+Shares + Mutability + Random access = Data Races; stop one and race conditions go away!
+
+
