@@ -11,26 +11,3 @@
 tupleCompare (2,2)
 //> Tuple that's equal and non-zero
 
-[<EntryPoint>]
-let main argv = 
-    printfn "%A" argv
-    // System.Console.ReadLine() |> ignore
-    0 // return an integer exit code
-
-
-
-
-
-
-
-let main argv = 
-    printfn "%A" argv
-    // System.Console.ReadLine() |> ignore
-    0 // return an integer exit code
-
-
-
-
-
-
-
